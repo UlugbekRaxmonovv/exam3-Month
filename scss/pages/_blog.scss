@@ -235,6 +235,7 @@
         .box{
             background-color: gray;
             height: 320px;
+            width: 100%;
             flex-shrink: 0;
             .box-all{
                 display: flex;
@@ -331,4 +332,14 @@
       z-index: 99;
       transition: 0.6s;}
 
+}
+
+@media(max-width:380px){
+  .blog-page{
+    .box{
+      background-color: gray;
+      height: 320px;
+      width: 100%;
+      flex-shrink: 0;}
+  }
 }

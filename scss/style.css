@@ -3075,6 +3075,34 @@ nav .checkBtn {
 .account-page {
   gap: 16px;
 }
+.account-page .one {
+  background-color: gray;
+}
+.account-page .one a {
+  color: white;
+}
+.account-page .one ul li input {
+  background-color: gray;
+}
+.account-page .one ::-moz-placeholder {
+  color: white;
+}
+.account-page .one ::placeholder {
+  color: white;
+}
+.account-page .one svg {
+  fill: white;
+}
+.account-page .one .btn1 {
+  background-color: gray;
+  color: white;
+}
+.account-page .one .btn1:hover {
+  transform: scale(1.2);
+  background: #F72585;
+  border: 1px solid #F72585;
+  color: white;
+}
 .account-page .web {
   background: grey;
 }

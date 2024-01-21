@@ -1,4 +1,32 @@
 .account-page{
+    .one{
+        background-color: gray;
+         
+          a{
+              color: white;
+          }
+         ul li input{
+             background-color: gray;
+              
+          }
+          ::placeholder{
+              color: white;
+          }
+          svg{
+              fill: white;
+          }
+          .btn1{
+              background-color: gray;
+              color: white;
+           }
+           .btn1:hover{
+              transform: scale(1.2);
+              background:  #F72585;
+              border: 1px solid  #F72585 ;
+              color: white;
+             
+          }
+      }
     gap: 16px;
     .web{
             background:  grey;

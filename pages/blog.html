@@ -40,7 +40,7 @@
               <a href="../pages/courses.html">Courses</a>
           </li>
           <li>
-              <a href="../pages/details.html">Detail courses</a>
+              <a href="../pages/account.html">Detail courses</a>
           </li>
           <li>
               <a href="../pages/blog.html">Blog</a>
@@ -232,6 +232,13 @@ function toggleBacktop() {
     backtop.style.bottom = '-50px';
   }
 }
+
+
+let modeBtn = document.getElementById("light-dark");
+
+modeBtn.addEventListener("click", function () {
+  document.body.classList.toggle("dark");
+});
     </script>
   </body>
 </html>

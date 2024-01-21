@@ -1,5 +1,6 @@
+
 .account-page{
-    .one{
+    .two{
         background-color: gray;
          
           a{
@@ -27,6 +28,9 @@
              
           }
       }
+    .footer{
+        margin-top: 60%;
+    }
     gap: 16px;
     .web{
             background:  grey;
@@ -898,6 +902,7 @@
                         
                         color: var(--Text-Tittle, #1C3554);
                         font-variant-numeric: lining-nums proportional-nums;
+                        /* Heading/Medium/H6 - 16px */
                         font-family: Rubik;
                         font-size: 16px;
                         font-style: normal;
@@ -907,6 +912,7 @@
                     }
                     p{
                         color: var(--Primary-Pink, #F72585);
+                        /* Paragraph/Semibold/Label - 12px */
                         font-family: "Montserrat SemiBold";
                         font-size: 12px;
                         font-style: normal;
@@ -915,7 +921,6 @@
                     }
                     h4{
                         width: 45.153px;
-                        text-align: center;
                         color: var(--Text-Body, #808080);
                         /* Paragraph/Semibold/Caption - 14px */
                         font-family: "Montserrat SemiBold";
@@ -991,105 +996,99 @@
         }
     }
     
-    .footer{
-    margin-top: 60%;
-
-
 
 
 
 }
-}
 
-@media(max-width:976px){
-.account-page{
-.footer{
-margin-top: 350%;
-}
-}
-}
-
-
-
-@media(max-width:764px){
-.account-page{
-.footer{
-margin-top: 460%;
-
-}
- .course{
-        height: 600vh;
-        .this{
-            padding: 104px;
-                    p{
-                        max-width: 500px;
-                        color: #808080;
-                        font-family: Montserrat;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 27px;
-                    }
-
-                    .object{
-                    h1{
-                    text-align: center;
-
-                 }
-
-}
-}}
-.more{
-
-
-h1{
-text-align: center;
-}
-}}}
-
-
-
-@media(max-width:400px){
-.account-page{
-.footer{
-margin-top: 1100%;
-
-}
- .course{
-        height: 600vh;
-        .this{
-            padding: 104px;
-
-                    p{
-                        max-width: 300px;
-                        text-align: center;
-                        color: #808080;
-                        font-family: Montserrat;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 27px;
-                    }
-                    h1{
-                    width: 300px;
-                    text-align: center;
-
-                    .object{
-                    h1{
-                    text-align: center;
-
-                 }
-
-}
-}}
-.more{
-
-
-h1{
-text-align: center;
-}
-}}}
-
-}
-
+// @media(max-width:976px){
+//     .account-page{
+//     .footer{
+//     margin-top: 350%;
+//     }
+//     }
+//     }
+    
+    
+    
+//     @media(max-width:764px){
+//     .account-page{
+//     .footer{
+//     margin-top: 460%;
+    
+//     }
+//      .course{
+//             height: 600vh;
+//             .this{
+//                 padding: 104px;
+//                         p{
+//                             max-width: 500px;
+//                             color: #808080;
+//                             font-family: Montserrat;
+//                             font-size: 16px;
+//                             font-style: normal;
+//                             font-weight: 400;
+//                             line-height: 27px;
+//                         }
+    
+//                         .object{
+//                         h1{
+//                         text-align: center;
+    
+//                      }
+    
+//     }
+//     }}
+//     .more{
+    
+    
+//     h1{
+//     text-align: center;
+//     }
+//     }}}
+    
+    
+    
+//     @media(max-width:400px){
+//     .account-page{
+//     .footer{
+//     margin-top: 1100%;
+    
+//     }
+//      .course{
+//             height: 600vh;
+//             .this{
+//                 padding: 104px;
+    
+//                         p{
+//                             max-width: 300px;
+//                             text-align: center;
+//                             color: #808080;
+//                             font-family: Montserrat;
+//                             font-size: 16px;
+//                             font-style: normal;
+//                             font-weight: 400;
+//                             line-height: 27px;
+//                         }
+//                         h1{
+//                         width: 300px;
+//                         text-align: center;
+    
+//                         .object{
+//                         h1{
+//                         text-align: center;
+    
+//                      }
+    
+//     }
+//     }}
+//     .more{
+    
+    
+//     h1{
+//     text-align: center;
+//     }
+//     }}}
+    
+//     }
 

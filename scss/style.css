@@ -3075,33 +3075,36 @@ nav .checkBtn {
 .account-page {
   gap: 16px;
 }
-.account-page .one {
+.account-page .two {
   background-color: gray;
 }
-.account-page .one a {
+.account-page .two a {
   color: white;
 }
-.account-page .one ul li input {
+.account-page .two ul li input {
   background-color: gray;
 }
-.account-page .one ::-moz-placeholder {
+.account-page .two ::-moz-placeholder {
   color: white;
 }
-.account-page .one ::placeholder {
+.account-page .two ::placeholder {
   color: white;
 }
-.account-page .one svg {
+.account-page .two svg {
   fill: white;
 }
-.account-page .one .btn1 {
+.account-page .two .btn1 {
   background-color: gray;
   color: white;
 }
-.account-page .one .btn1:hover {
+.account-page .two .btn1:hover {
   transform: scale(1.2);
   background: #F72585;
   border: 1px solid #F72585;
   color: white;
+}
+.account-page .footer {
+  margin-top: 60%;
 }
 .account-page .web {
   background: grey;
@@ -3888,6 +3891,7 @@ nav .checkBtn {
 .account-page .course .more .cards .card h6 {
   color: var(--Text-Tittle, #1C3554);
   font-variant-numeric: lining-nums proportional-nums;
+  /* Heading/Medium/H6 - 16px */
   font-family: Rubik;
   font-size: 16px;
   font-style: normal;
@@ -3897,6 +3901,7 @@ nav .checkBtn {
 }
 .account-page .course .more .cards .card p {
   color: var(--Primary-Pink, #F72585);
+  /* Paragraph/Semibold/Label - 12px */
   font-family: "Montserrat SemiBold";
   font-size: 12px;
   font-style: normal;
@@ -3905,7 +3910,6 @@ nav .checkBtn {
 }
 .account-page .course .more .cards .card h4 {
   width: 45.153px;
-  text-align: center;
   color: var(--Text-Body, #808080);
   /* Paragraph/Semibold/Caption - 14px */
   font-family: "Montserrat SemiBold";
@@ -3973,70 +3977,4 @@ nav .checkBtn {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 200% */
-}
-.account-page .footer {
-  margin-top: 60%;
-}
-
-@media (max-width: 976px) {
-  .account-page .footer {
-    margin-top: 350%;
-  }
-}
-@media (max-width: 764px) {
-  .account-page .footer {
-    margin-top: 460%;
-  }
-  .account-page .course {
-    height: 600vh;
-  }
-  .account-page .course .this {
-    padding: 104px;
-  }
-  .account-page .course .this p {
-    max-width: 500px;
-    color: #808080;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-  }
-  .account-page .course .this .object h1 {
-    text-align: center;
-  }
-  .account-page .more h1 {
-    text-align: center;
-  }
-}
-@media (max-width: 400px) {
-  .account-page .footer {
-    margin-top: 1100%;
-  }
-  .account-page .course {
-    height: 600vh;
-  }
-  .account-page .course .this {
-    padding: 104px;
-  }
-  .account-page .course .this p {
-    max-width: 300px;
-    text-align: center;
-    color: #808080;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-  }
-  .account-page .course .this h1 {
-    width: 300px;
-    text-align: center;
-  }
-  .account-page .course .this h1 .object h1 {
-    text-align: center;
-  }
-  .account-page .course .more h1 {
-    text-align: center;
-  }
 }/*# sourceMappingURL=style.css.map */
